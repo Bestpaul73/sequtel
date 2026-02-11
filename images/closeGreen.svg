@@ -1,0 +1,12 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="20" height="20">
+	<title>Main_home_set</title>
+	<defs>
+		<image width="20" height="20" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAA/ElEQVQ4T6XVMW7CMBTG8f8DscIJuEIPUEWo4gqoW7Yw0qkHYOnQE7QTqsqEunMFwiFYO3GEILtKoigFbL9gPFs/+73vWRbybENhXph8Hbln5dkbIjshn3+CTSjMNBrNs3eQFGufBIuwn39Eo/8wHlcHqaqMRS+wkqrBGNSBnYO3oB7sGuyCBjA3GEIVzA+60EHvtRmNMk3fyLahuHa06c+wnIBJCAvfsDmgKpMF8EthEm34wzdsetaTKcYsgQftRfnBywB+nvuMh2sNdYO+NDug16A2Ggp6DmpYE1QAbcGumILW4K1YAJVozIOW4B5Lqr2A4O9Q9XT0jWX7B5+35ZOF6sLJAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Main_home_set">
+		<use id="Layer 4" href="#img1" transform="matrix(1,0,0,1,0,0)"/>
+	</g>
+</svg>

@@ -1,0 +1,16 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 135 18" width="135" height="18">
+	<title>project_open</title>
+	<defs>
+		<image width="135" height="18" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIcAAAASCAYAAABxTM36AAABIUlEQVRoQ+2awUrDQBRF76ulLWJAQmnpxn5B3SuVQkH/wF+TFndudOFvFQQpSUCwocotiSbGtAldZ+6sAjObd+bw3sybGGoGyRY+1yM77a/q1mmumQSsKiySHcThKwAf3fOZmX03E4GiqiJwUI5cDGKIHu/M/EgI3SOwJwfJE8ThC4gLieGeEMWI/8mRirGJnmCcoMsbZQzJkRIoiHGJbXtunvfuNhpFn2YOkoY4WAJ2JTEkRUbAfsSIHgDe4ms7tbPBm/CIQELAuAkeAdwDSK6tH8IiAn+ZQ3LIhgoCKitSo5JA8UC6AOxaB1LZkpeV7ENXWUlRJqAmmJyoLyvF2d/2+TOIsdrnbpujhze39782ej3ZS47jy0qpxOhnH4fl2QFt75D/FI91/QAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="project_open">
+		<g id="Navigation">
+			<g id="Back">
+				<use id="Vector Smart Object" href="#img1" transform="matrix(1,0,0,1,0,0)"/>
+			</g>
+		</g>
+	</g>
+</svg>

@@ -1,0 +1,16 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27 20" width="27" height="20">
+	<title>Stratagy_block</title>
+	<defs>
+		<image width="27" height="20" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAUCAYAAAB8gkaAAAAAxklEQVRIS72VQQrCMBBF3z+Xm3oDj+DaQwg9hGvpTRTcW2/ixp0wEkFJadPUNuOsAsnk8SfzJ2JCmNkGOEm6TziePKJcspltgSPQSArr2TEKi0A3oHJTVhoUyjGozAM0CPMC9WCeoA7MG/SFmdkOOABFui7lDZnZBVgBD+AKPGcbaTyxCbA9UDsB4mvrd+tH79UC66XmTZbxs/EPYMfU3sDeBPEE5sZV0TdMTn0PhVO/mCIKf/k8z5KqJX7MwiIftpKCwtnxAooUc+9W2pwIAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Stratagy_block">
+		<g id="Programms">
+			<g id="Right Arrow copy 4" style="opacity: 0.22">
+				<use id="Слой 1" href="#img1" transform="matrix(1,0,0,1,0,0)"/>
+			</g>
+		</g>
+	</g>
+</svg>

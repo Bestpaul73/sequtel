@@ -1,0 +1,14 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29 26" width="29" height="26">
+	<title>project_open</title>
+	<defs>
+		<image width="29" height="26" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAaCAYAAABLlle3AAABQklEQVRIS8XWvUrEQBDA8f+AEDm5wq9G8FFsLPREH0AfQdBaGwVttFbwibSxTis2ioWQUzhMRC8jOXIhd8l5m5hdU+/ml83MzoxQ8dEo2Afp4IV7IisfFbcPlkuVTSl4AzzQ/16TueWXKvuHa43RHOgT9zvSWnquAxqfVKPuIXAF+HzNrEu7/VoXNEL1MzhG5aIpcCpqA/wVtQVORDNQuWdWN0QW3v8Sw/G9hezVsHuOcIIlsHBSjYJLkCOb4AjqCszQDIRbPN1pOoaFmObAHvAIxE0mTdm75F/Q5Ety8B2eblv/vcPjO08k13BZcThDOLV5V0v76WgZZFNk/q3JjJ7YxJ0X/CzGFnrp1H46uE4WYKMZSaPgAOS6qenBCE0LSDJ6JpOgTxxvSWvxqW5yGaNjsJsRNFdA0mG7tyuyGtY57Q+I/caHhnHw/QAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="project_open">
+		<g id="Navigation">
+			<use id="arrow" href="#img1" transform="matrix(1,0,0,1,0,0)"/>
+		</g>
+	</g>
+</svg>
