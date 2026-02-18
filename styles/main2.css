@@ -1,0 +1,102 @@
+.product {
+  padding-top: 15px;
+  display: flex;
+  border-top: 1px solid #00c864;
+  font-family: "Uni Sans Regular";
+  margin-bottom: 150px;
+}
+.product-title {
+  font-size: 48px;
+  color: #00c864;
+  padding-bottom: 50px;
+  display: flex;
+  width: 60%;
+}
+.product-description1, .product-description2 {
+  display: flex;
+  justify-content: space-between;
+  gap: 3%;
+  margin-bottom: 36px;
+}
+.product-text {
+  padding-bottom: 50px;
+  font-size: 16px;
+  color: #a9c5cc;
+  text-align: justify;
+  box-sizing: border-box;
+  line-height: 1.3;
+}
+.product-description1_left {
+  width: 60%;
+}
+.product-subtitle {
+  font-size: 24px;
+  color: #00c864;
+  margin-bottom: 25px;
+}
+.product-description2_left {
+  background-color: #00c864;
+  width: 50%;
+  padding-top: 25px;
+  padding-left: 15px;
+  padding-right: 35px;
+  padding-bottom: 200px;
+}
+.product-description2_left .product-subtitle, .product-description2_left .product-text {
+  color: #000;
+}
+.product-description2_right {
+  background-color: #1a2549;
+  width: 50%;
+  padding-top: 25px;
+  padding-left: 15px;
+  padding-right: 35px;
+}
+.product-description2_right .product-subtitle, .product-description2_right .product-text {
+  color: #fff;
+}
+.product-description2_left .product-text, .product-description2_right .product-text, .product-description3_table .product-text, .product-description4_table .product-text {
+  padding-bottom: 25px;
+  padding-right: 50px;
+  text-align: left;
+}
+.product-description3 {
+  background-color: #00c864;
+  padding-top: 25px;
+  padding-left: 25px;
+  padding-right: 35px;
+  margin-bottom: 36px;
+}
+.product-description3_table {
+  display: grid;
+  grid-template-columns: 20px 1fr 20px 2fr 100px;
+  grid-template-rows: repeat(4, 1fr);
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.product-description3_table2 {
+  display: grid;
+  grid-template-columns: 20px 1fr 100px;
+  grid-template-rows: repeat(3, 1fr);
+}
+.product-description3_right {
+  width: 50%;
+}
+.product-description3 .product-subtitle, .product-description3 .product-text {
+  color: #fff;
+  padding-bottom: 20px;
+}
+.product-description4 {
+  background-color: #1a2549;
+  padding-top: 25px;
+  padding-left: 25px;
+  padding-right: 35px;
+}
+.product-description4_table {
+  display: grid;
+  grid-template-columns: 20px 1fr 20px 1fr;
+  grid-template-rows: repeat(3, 1fr);
+}
+.product-description4 .product-text {
+  color: #00c864;
+}/*# sourceMappingURL=main2.css.map */
