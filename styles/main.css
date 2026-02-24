@@ -532,7 +532,8 @@ a {
 @media (max-width: 992px) {
   .header .nav-show {
     width: auto;
-    height: 38vh;
+    /* height: 50vh; */
+    height: auto;
     padding: 0 25px;
     display: flex;
     justify-content: flex-start;
