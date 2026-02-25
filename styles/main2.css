@@ -48,6 +48,7 @@
 }
 .product-description2_left {
   background-color: #00c864;
+  opacity: 0.6;
   width: 50%;
   padding-top: 25px;
   padding-left: 15px;
@@ -73,6 +74,7 @@
 }
 .product-description3 {
   background-color: #00c864;
+  opacity: 0.6;
   padding-top: 25px;
   padding-left: 25px;
   padding-right: 35px;
