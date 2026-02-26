@@ -231,38 +231,38 @@
   &__address {
     font-size: 16px;
   }
-}
 
-.logo {
-  display: flex;
-  flex-direction: row;
-  background-color: #fff;
-
-  &-img {
-    width: 180px;
-    padding: 20px;
-    object-fit: contain;
-  }
-
-  &-description {
+  &__logo {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 180px;
-    align-items: center;
-    gap: 10px;
-    text-align: center;
-  }
+    flex-direction: row;
+    background-color: #fff;
 
-  &-title {
-    color: #000;
-    font-size: 24px;
-    font-weight: 600;
-  }
+    &-img {
+      width: 180px;
+      padding: 20px;
+      object-fit: contain;
+    }
 
-  &-text {
-    color: #00adee;
-    font-size: 16px;
+    &-description {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 180px;
+      align-items: center;
+      gap: 10px;
+      text-align: center;
+    }
+
+    &-title {
+      color: #000;
+      font-size: 24px;
+      font-weight: 600;
+    }
+
+    &-text {
+      color: #00adee;
+      font-size: 16px;
+    }
   }
 }
 

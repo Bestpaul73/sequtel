@@ -164,19 +164,18 @@
 .news__address {
   font-size: 16px;
 }
-
-.logo {
+.news__logo {
   display: flex;
   flex-direction: row;
   background-color: #fff;
 }
-.logo-img {
+.news__logo-img {
   width: 180px;
   padding: 20px;
   -o-object-fit: contain;
      object-fit: contain;
 }
-.logo-description {
+.news__logo-description {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -185,12 +184,12 @@
   gap: 10px;
   text-align: center;
 }
-.logo-title {
+.news__logo-title {
   color: #000;
   font-size: 24px;
   font-weight: 600;
 }
-.logo-text {
+.news__logo-text {
   color: #00adee;
   font-size: 16px;
 }
