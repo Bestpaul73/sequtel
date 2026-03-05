@@ -9,7 +9,10 @@
     <script type="text/javascript" src="./scripts/lib/jquery-3.6.0.min.js"></script>
     <script type="text/javascript" src="./scripts/index.js"></script>
   </head>
+
   <body class="background-page">
+    <div class="btn-up btn-up_hide"></div>
+
     <header class="header section-wrapper">
       <a class="header__logo" href="./index.html">
         <img src="./images/headerLogo.svg" alt="logo" />
@@ -77,10 +80,10 @@
           <div class="product-description1">
             <div class="product-description1_left">
               <div class="product-text">
-                Мобильная автономная базовая станция (МАБС) предназначена для обеспечения бесперебойной работы активного
-                оборудования беспроводной связи, видеонаблюдения, телеметрии, метеорологии и др. функционала в удаленных
-                труднодоступных локациях, где отсутствует возможность подключения к энергосети или иным источникам
-                постоянного энергоснабжения.
+                Мобильная автономная базовая станция (МАБС) российского производства предназначена для обеспечения
+                бесперебойной работы активного оборудования беспроводной связи, видеонаблюдения, телеметрии,
+                метеорологии и др. функционала в удаленных труднодоступных локациях, где отсутствует возможность
+                подключения к энергосети или иным источникам постоянного энергоснабжения.
               </div>
               <div class="product-subtitle">Конструктивные особенности</div>
               <div class="product-text">
@@ -95,7 +98,8 @@
             </div>
             <div class="product-description1_right">
               <!-- <img src="./images/products/mabs.jpg" alt="mabs" /> -->
-              <img style="width: 100%" src="./images/products/product1.jpg" alt="mabs1" />
+              <!-- <img style="width: 100%;" src="./images/products/product1.jpg" alt="mabs1" /> -->
+              <img class="product-description1_right__img" src="./images/products/product1.jpg" alt="mabs1" />
             </div>
           </div>
 
@@ -103,19 +107,25 @@
             <div class="product-description2_left">
               <div class="product-subtitle">Ключевые элементы несущей конструкции МАБС:</div>
               <div class="product-text">
-                &#9658; усиленная алюминиевая телескопическая мачта (высота подъема до 9 м) с грузоподъемностью до 95 кг
+                &#9658; усиленная алюминиевая телескопическая мачта (высота подъема до 9 м) грузоподъемностью от 40 до
+                95 кг. Для мачт грузоподьемностью 40 кг доступна опция вращения вокруг своей оси на 220°
               </div>
               <div class="product-text">
-                &#9658; регулируемые выдвижные распорки (аутригеры и тросовые растяжки для дополнительной стабилизации)
+                &#9658; регулируемые выдвижные распорки (аутригеры) для устойчивости конструкции и тросовые растяжки для
+                дополнительной стабилизации мачты
               </div>
               <div class="product-text">
-                &#9658; модульная усиленная рама с утепленным отсеком для размещения энергоустановки
+                &#9658; модульная усиленная рама с утепленным отсеком (термоконтейнером) для размещения энергоустановки
+                и активного оборудования
               </div>
             </div>
             <div class="product-description2_right">
               <div class="product-subtitle">Энергоустановка</div>
               <br />
-              <div class="product-text">&#9658; ДГУ с автономным подогревателем</div>
+              <div class="product-text">
+                &#9658; ДГУ с системой АВР. Автономный подогреватель типа Планар для поддержания рабочего температурного
+                режима оборудования
+              </div>
               <div class="product-text">&#9658; монокристаллические солнечные панели</div>
               <div class="product-text">&#9658; блок аккумуляторных накопителей энергии</div>
               <div class="product-text">&#9658; ветрогерератор</div>
@@ -136,9 +146,9 @@
                 <div class="product-text">&#9658;</div>
                 <div>
                   <div class="product-text">Автономный режим (до 48 часов)</div>
-                  <div class="product-text">питание от дизельного генератора;</div>
-                  <div class="product-text">одновременная зарядка аккумуляторных батарей;</div>
-                  <div class="product-text">переход на питание от АКБ при отключении генератора;</div>
+                  <div class="product-text">питание от дизельного генератора</div>
+                  <div class="product-text">одновременная зарядка аккумуляторных батарей</div>
+                  <div class="product-text">переход на питание от АКБ при отключении генератора</div>
                 </div>
               </div>
 
@@ -146,10 +156,10 @@
                 <div class="product-text">&#9658;</div>
                 <div>
                   <div class="product-text">Внешнее питание — возможность подключения к:</div>
-                  <div class="product-text">дизельной генераторной установке (ДГУ);</div>
-                  <div class="product-text">сети 220 В / 50 Гц;</div>
+                  <div class="product-text">дизельной генераторной установке (ДГУ)</div>
+                  <!-- <div class="product-text">сети 220 В / 50 Гц;</div> -->
                   <div class="product-text">
-                    линейному питанию 220 В (при нахождении вблизи источников электроэнергии).
+                    линейному питанию 220В / 50Гц (при нахождении вблизи источников электроэнергии)
                   </div>
                 </div>
               </div>
@@ -185,7 +195,9 @@
               <div class="product-text">&#9658;</div>
               <div>
                 <div class="product-text">Гибридный режим (система «Инвертор + АКБ + солнечные панели»)</div>
-                <div class="product-text">автоматический запуск генератора при снижении напряжения АКБ до 47 В;</div>
+                <div class="product-text">
+                  автоматический запуск генератора при снижении напряжения АКБ до заданных параметров
+                </div>
               </div>
             </div>
           </div>
@@ -416,5 +428,7 @@
         });
       </script>
     </footer>
+
+    <script src="./scripts/btn-up.js"></script>
   </body>
 </html>
