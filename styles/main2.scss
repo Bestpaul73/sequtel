@@ -226,16 +226,31 @@
   &__text {
     color: #fff;
     font-size: 24px;
-    margin: auto;
+    // margin: auto;
   }
 
   &__link {
     text-decoration: underline;
     color: #fff;
+    &:hover {
+      color: #118c57;
+    }
   }
 
   &__address {
     font-size: 16px;
+  }
+
+  &__foto {
+    width: 400px;
+    // padding: 20px;
+    object-fit: contain;
+    display: block;
+    // transition: transform 0.3s ease;
+
+    // &:hover {
+    //   transform: scale(1.02);
+    // }
   }
 
   &__logo {
@@ -243,7 +258,11 @@
     flex-direction: row;
     background-color: #fff;
     margin: 0 auto;
-    padding: 20px;
+    // padding: 20px;
+    transition: transform 0.3s ease;
+    &:hover {
+      transform: scale(1.02);
+    }
 
     &-img {
       width: 180px;
@@ -319,7 +338,7 @@
   width: 60px;
   /* высота элемента */
   height: 60px;
-  opacity: .6;
+  opacity: 0.6;
 }
 
 .btn-up::before {

@@ -161,21 +161,32 @@
 .news__text {
   color: #fff;
   font-size: 24px;
-  margin: auto;
 }
 .news__link {
   text-decoration: underline;
   color: #fff;
 }
+.news__link:hover {
+  color: #118c57;
+}
 .news__address {
   font-size: 16px;
+}
+.news__foto {
+  width: 400px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  display: block;
 }
 .news__logo {
   display: flex;
   flex-direction: row;
   background-color: #fff;
   margin: 0 auto;
-  padding: 20px;
+  transition: transform 0.3s ease;
+}
+.news__logo:hover {
+  transform: scale(1.02);
 }
 .news__logo-img {
   width: 180px;
