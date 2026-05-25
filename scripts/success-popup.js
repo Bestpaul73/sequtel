@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", function () {
             </div>
 
             <div class="success-popup-text">
-                Заявка успешно отправлена.<br>
+                Ваше сообщение успешно отправлено.<br>
                 Мы свяжемся с вами в ближайшее время.
             </div>
 

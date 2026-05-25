@@ -8,8 +8,8 @@
 		if (isset($_POST['formData'])) {$formData = $_POST['formData'];}
 		if(!$pageurl) {$pageurl = "Контакты";}
 		
-		$to = "sequtel@yandex.ru, sequtel@gmail.com, ppalkin@sequtel.ru"; 
-		//$to = "ppalkin@sequtel.ru";
+		$to = "info@sequtel.ru, ppalkin@sequtel.ru"; 
+		// $to = "sequtel@yandex.ru, sequtel@gmail.com, ppalkin@sequtel.ru"; 
 		
 		$sendfrom   = "info@sequtel.ru";
 		$headers  = "From: " . strip_tags($sendfrom) . "\r\n";
