@@ -1,0 +1,169 @@
+/* затемнение экрана */
+.success-popup-overlay {
+    position: fixed;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    z-index: 9999;
+    background: rgba(26, 37, 73, 0.58);
+    backdrop-filter: blur(5px);
+    animation: popupFadeIn 0.25s ease;
+}
+
+/* popup окно */
+.success-popup {
+    position: relative;
+    width: 470px;
+    max-width: 100%;
+    padding: 42px 34px 34px;
+    border-radius: 18px;
+    background: #ffffff;
+    text-align: center;
+    box-shadow: 0 22px 55px rgba(26, 37, 73, 0.18);
+    border: 1px solid #EFF1F4;
+    animation: popupScaleIn 0.28s ease;
+}
+
+/* крестик */
+.success-popup-close {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    width: 34px;
+    height: 34px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    color: #3F4C77;
+    font-size: 28px;
+    line-height: 1;
+    transition: 0.2s ease;
+}
+
+/* hover крестика */
+.success-popup-close:hover {
+    color: #1A2549;
+    transform: scale(1.08);
+}
+
+/* success icon */
+.success-popup-icon {
+    width: 76px;
+    height: 76px;
+    margin: 0 auto 22px;
+    border-radius: 50%;
+    background: rgba(0, 200, 100, 0.10);
+    color: #00C864;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 34px;
+    font-weight: 700;
+    font-family: "Reforma Grotesk", sans-serif;
+}
+
+/* заголовок */
+.success-popup-title {
+    margin-bottom: 12px;
+    color: #1A2549;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.2;
+    font-family: "Reforma Grotesk", sans-serif;
+}
+
+/* текст */
+.success-popup-text {
+    margin-bottom: 28px;
+    color: #3F4C77;
+    font-size: 16px;
+    line-height: 1.65;
+    font-family: "Uni Sans", sans-serif;
+}
+
+/* фирменная кнопка */
+.success-popup-btn {
+    min-width: 160px;
+    padding: 14px 28px;
+    border: none;
+    border-radius: 10px;
+    background: #1A2549;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.25px;
+    font-family: "Reforma Grotesk", sans-serif;
+    transition: 0.2s ease;
+}
+
+/* hover кнопки */
+.success-popup-btn:hover {
+    background: #2A375B;
+    transform: translateY(-1px);
+}
+
+/* active */
+.success-popup-btn:active {
+    background: #3F4C77;
+}
+
+/* скрытие popup */
+.success-popup-hide {
+    animation: popupFadeOut 0.25s ease forwards;
+}
+
+/* fade in */
+@keyframes popupFadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* scale in */
+@keyframes popupScaleIn {
+    from {
+        opacity: 0;
+        transform: scale(0.94) translateY(12px);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1) translateY(0);
+    }
+}
+
+/* fade out */
+@keyframes popupFadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+/* mobile */
+@media (max-width: 576px) {
+
+    .success-popup {
+        padding: 34px 24px 28px;
+    }
+
+    .success-popup-title {
+        font-size: 26px;
+    }
+
+    .success-popup-text {
+        font-size: 15px;
+        line-height: 1.55;
+    }
+
+    .success-popup-btn {
+        width: 100%;
+    }
+}

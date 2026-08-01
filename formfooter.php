@@ -7,7 +7,10 @@
 		if (isset($_POST['contactsMessage'])) {$Message = $_POST['contactsMessage'];}
 		if (isset($_POST['formData'])) {$formData = $_POST['formData'];}
 		if(!$pageurl) {$pageurl = "Контакты";}
-		$to = "sequtel@yandex.ru, sequtel@gmail.com"; 
+		
+		$to = "info@sequtel.ru, ppalkin@sequtel.ru"; 
+		// $to = "sequtel@yandex.ru, sequtel@gmail.com, ppalkin@sequtel.ru"; 
+		
 		$sendfrom   = "info@sequtel.ru";
 		$headers  = "From: " . strip_tags($sendfrom) . "\r\n";
 		$headers .= "Reply-To: ". strip_tags($sendfrom) . "\r\n";
@@ -24,11 +27,12 @@
 		$send = mail ($to, $subject, $message, $headers);
 		if ($send == 'true')
 		{
-			echo '<center>
-			
-			Спасибо за заявку! Мы свяжемся с вами в ближайшее время!
-			
-			</center>';
+//			echo '<center>
+//			Спасибо за заявку! Мы свяжемся с вами в ближайшее время!
+//			</center>';
+
+            header("Location: /contacts.html?success=1");
+            exit;
 		}
 		else
 		{

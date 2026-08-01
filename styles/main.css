@@ -831,7 +831,7 @@ a {
 }
 
 .first-section {
-  margin-bottom: 230px;
+  margin-bottom: 180px;
   position: relative;
 }
 
@@ -926,6 +926,7 @@ a {
   font-size: 26px;
   font-family: 'Uni Sans Regular';
   color: #fff;
+  margin-bottom: 30px;
 }
 
 @media (max-width: 992px) {
@@ -938,6 +939,20 @@ a {
   .first-section__text {
     padding: 0;
     font-size: 20px;
+  }
+}
+
+.anniversary-logo {
+  width: 250px;
+}
+@media (max-width: 768px) {
+  .anniversary-logo {
+    width: 210px;
+  }
+}
+@media (max-width: 480px) {
+  .anniversary-logo {
+    width: 180px;
   }
 }
 
