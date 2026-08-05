@@ -942,8 +942,28 @@ a {
   }
 }
 
-.anniversary-logo {
+/* Контейнер юбилейного логотипа */
+.anniversary-logo-wrapper {
   width: 250px;
+  height: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.anniversary-logo {
+  width: 100%;
+
+  /* Разрешаем занимать всю высоту контейнера */
+  height: 100%;
+
+  /* Вписываем картинку целиком без обрезания */
+  object-fit: contain;
+
+  /* Убираем строчный зазор */
+  display: block;
+  transition: opacity 0.3s ease;
+  opacity: 1;
 }
 @media (max-width: 768px) {
   .anniversary-logo {
