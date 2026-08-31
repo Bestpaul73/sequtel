@@ -963,7 +963,7 @@ a {
   /* Убираем строчный зазор */
   display: block;
   transition: opacity 0.3s ease;
-  opacity: 1;
+  opacity: 0;
 }
 @media (max-width: 768px) {
   .anniversary-logo {
